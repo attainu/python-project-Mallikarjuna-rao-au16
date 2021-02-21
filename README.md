@@ -1,10 +1,20 @@
 # Design a parking lot using Python OOP principles
 
-1. We create n number of slots
-2. Allocate each parking lot to a selected car using the respective function
-3. If any slot needed to be emptied function leave to be used
-4. The number of cars with respective colors can be known
-5. The registration numbers of cars of a particular colour can be known
+Description:
+
+1. We create n number of slots for cars as per the user request.
+
+2. The program allocate each parking lot to a selected car
+
+3. If any slot needed to be vacated the user can prompt the program of the required slot.
+
+4.The system  provides with the ability to find out:
+
+    a. Registration numbers of all cars of a particular colour.
+
+    b. Slot number in which a car with a given registration number is parked.
+
+    c. Slot numbers of all slots where a car of a particular colour is parked.
 
 create_parking_lot 6
 park KA-01-HH-1234 White
